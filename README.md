@@ -10,4 +10,4 @@ Instead, Alice can retrieve Bob’s public key and issue a “re-encryption” k
 
 In the second scenario, the decryption / re-encryption process is sidestepped and Alice doesn't need to perform this operation on their own devices. Instead, all they need to do is generate a key that should be quick, and pass it to the cloud provider, which at no point can decrypt the original message, making this system very scalable and enables data-sharing apps in a cloud environment.
 
-![](Proxy Rencryption/1.png)
+![](Proxy%20Rencryption/1.png)
