@@ -9,3 +9,5 @@ Alice wants to send the stored encrypted data to Bob. Alice has to get Bob's pub
 Instead, Alice can retrieve Bob’s public key and issue a “re-encryption” key. This key represents the trusted relationship Alice has with Bob. Alice can send this data to the cloud provider and the cloud provider can proceed to re-encrypt the already encrypted data that is stored in the cloud using the re-encryption key. Bob can download this re-encrypted data and decrypt it as well. This is possible because the initial data is encrypted with Bob’s public key.
 
 In the second scenario, the decryption / re-encryption process is sidestepped and Alice doesn't need to perform this operation on their own devices. Instead, all they need to do is generate a key that should be quick, and pass it to the cloud provider, which at no point can decrypt the original message, making this system very scalable and enables data-sharing apps in a cloud environment.
+
+![](Proxy Rencryption/1.png)
